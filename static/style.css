@@ -173,6 +173,17 @@ body{
     background-color: rgb(34, 30, 30);
     border-radius: 5.6rem !important;
 }
+
+.pg-element0{
+    text-decoration: none;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 36px;
+    padding-bottom: 0px;
+    padding-right: 100px;
+    font-weight: 600 !important;
+    font-family: 'Montserrat', sans-serif;
+}
 .pg-element1{
     text-decoration: none;
     font-size: 12px;
@@ -180,16 +191,17 @@ body{
     padding-left: 20px;
     padding-bottom: 0px;
     padding-right: 100px;
-    font-weight: 700 !important;
+    font-weight: 600 !important;
     font-family: 'Montserrat', sans-serif;
 }
 .pg-element2{
-    font-size: 13px;
+    text-decoration: none;
+    font-size: 12px;
     padding-top: 10px;
-    padding-left: 40px;
+    padding-left: 20px;
     padding-bottom: 0px;
-    padding-right: 100px;
-    font-weight: 700 !important;
+    padding-right: 120px;
+    font-weight: 600 !important;
     font-family: 'Montserrat', sans-serif;
 }
 .pg-element2:hover{
@@ -199,28 +211,30 @@ body{
 }
 .pagination-button{
     position: absolute;
+    margin-left: 32px;
     transform: translate(60%, -41%);
     background-color: #FF385C;
     border:none;
     border-radius: 200px;
-    padding-left: 10px;
-    padding-right: 20px;
-    padding-top: 10px;
+    padding-left: 9px;
+    padding-right: 12px;
+    padding-top: 6px;
     padding-bottom: 10px;
       
 }
 .search-button{
+    padding-left: 3px;
+    padding-bottom: 0px;
+    display: flex;
     align-items: center; 
-    width: 25px;
-    height: 30px;
+    width: 28px;
+    height: 32px;
 }
 /*END pagination*/
 /*Jumbotron */
 .jumbotron{
     background-color: #FF385C;
     margin: auto;
-    padding-left: 80px;
-    padding-right: 80px;
     border-radius: 15px;
     background-position-x: initial ;
     background-position-y: initial;
@@ -232,8 +246,10 @@ body{
     min-width: 0px;
     min-height: 450px;
     margin-top: 60px;
-    margin-bottom: 80px;
-    padding-top: 150px;
+    margin-bottom: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 170px;
     padding-bottom: 80px;
     /* margin-bottom: 100px; */
 }

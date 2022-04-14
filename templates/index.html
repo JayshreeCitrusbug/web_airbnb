@@ -34,32 +34,32 @@
 <body>
   <!--Black Container-->
     <div class="container-fluid">
-    <!-- Header -->
-    <!-- logo -->
-    <div class="row">
-    <nav class="navbar navbar-expand-xxl navbar navbar-dark bg-dark" >
-      <div class="col-md-4 logo-title" >
-        <a class="navbar-brand" href="#">
-          <img src="\images\airbnb.svg" width="30" height="30" alt="Logo airbnb">
-            <!-- text -->
-            airbnb
-        </a>
-      </div>
-      <div class="col-md-4">
-          <ul class="nav justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link underline1" href="#" >Places to stay</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link underline2" href="#">Experiences</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link underline2" href="#">Online Experiences</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-4" style="padding-left: 270px;">
-          <ul class="nav nav-pills">
+      <!-- Header -->
+      <!-- logo -->
+      <div class="row">
+        <nav class="navbar navbar-expand-xxl navbar navbar-dark bg-dark">
+          <div class="col-md-4 logo-title">
+            <a class="navbar-brand" href="#">
+              <img src="\images\airbnb.svg" width="30" height="30" alt="Logo airbnb">
+              <!-- text -->
+              airbnb
+            </a>
+          </div>
+          <div class="col-md-4">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link underline1" href="#">Places to stay</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link underline2" href="#">Experiences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link underline2" href="#">Online Experiences</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4" style="padding-left: 270px;">
+            <ul class="nav nav-pills">
               <li class="nav-item">
                 <a class="nav-link host" href="#">Become a host</a>
               </li>
@@ -68,72 +68,83 @@
               </li>
               <li class="nav-item">
                 <button type="button" class="menu-profile">
-                    <img src="\images\menu_black.svg" class="menu" alt="Menu">
-                    <img src="\images\account_black.svg" class="profile" alt="Profile">
+                  <img src="\images\menu_black.svg" class="menu" alt="Menu">
+                  <img src="\images\account_black.svg" class="profile" alt="Profile">
                 </button>
-
+    
               </li>
-          </ul>          
-        
+            </ul>
+    
+          </div>
+        </nav>
+        <!--END Header -->
+    
+        <!--Pagination-->
+        <div class="first-pagination">
+          <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+              <div class="hover-effect1">
+                <a class="page-link pg-element0"
+                  style="color: black;border-top-left-radius: 40px;border-bottom-left-radius: 40px;">Location
+                  <p style="color: rgb(131, 127, 122); font-size: 13px; font-weight: 500">Where are you going?</p>
+                </a>
+              </div>
+            </li>
+    
+            <li class="page-item disabled">
+              <a class="page-link pg-element1" href="#" style="color: black;">Ckeck in
+                <p style="color: rgb(131, 127, 122); font-size: 13px; font-weight: 500 ">Add dates</p>
+              </a>
+            </li>
+    
+            <li class="page-item disabled">
+              <a class="page-link pg-element1" href="#" style="color: black;">Ckeck out
+                <p style="color: rgb(131, 127, 122); font-size: 13px; font-weight: 500 ">Add dates</p>
+              </a>
+            </li>
+    
+            <li class="page-item disabled">
+              <a class="page-link pg-element2" href="#"
+                style="color: black; border-top-right-radius: 40px;border-bottom-right-radius: 40px;">Guests
+                <p style="color: rgb(131, 127, 122); font-size: 13px; font-weight: 500">Add Guests
+                  <button type="button" class="pagination-button">
+                    <img src="\images\search_white.svg" class="search-button" alt="Search">
+                  </button>
+                </p>
+              </a>
+            </li>
+          </ul>
         </div>
-    </nav>
-  <!--END Header -->
-
-<!--Pagination-->
-  <div class="first-pagination">
-    <ul class="pagination justify-content-center">
-      <li class="page-item disabled">
-        <div class="hover-effect1">
-          <a class="page-link pg-element1" style="color: black;border-top-left-radius: 40px;border-bottom-left-radius: 40px;">Location
-            <p style="color: rgb(131, 127, 122); font-size: 13px;">Where are you going?</p></a>
+    
+        <!--END Pagination-->
+    
+    
+        <!--jumbotorn-->
+        <div class="jumbotron">
+          <h1 class="display-4">Help house 100,000 refugees fleeing Ukraine</h1>
+          <button type="button" class="btn btn-outline-light btn-sm button">Learn more</button>
         </div>
-        </li>
-
-      <li class="page-item disabled">
-        <a class="page-link pg-element1" href="#" style="color: black;">Ckeck in
-          <p style="color: rgb(131, 127, 122); font-size: 13px;">Add dates</p></a></li>
-
-      <li class="page-item disabled">
-        <a class="page-link pg-element1" href="#" style="color: black;">Ckeck out
-          <p style="color: rgb(131, 127, 122); font-size: 13px;">Add dates</p></a></li>
-
-      <li class="page-item disabled">
-        <a class="page-link pg-element2" href="#" style="color: black; border-top-right-radius: 40px;border-bottom-right-radius: 40px;">Guests
-          <p style="color: rgb(131, 127, 122); font-size: 13px;">Add Guests
-            <button type="button" class="pagination-button">
-              <img src="\images\search_white.svg" class="search-button" alt="Search">
-            </button>
-          </p></a>
-      </li>
-    </ul>
-</div>
-
-<!--END Pagination-->
-
-
-    <!--jumbotorn-->
-   <div class="jumbotron">
-        <h1 class="display-4">Help house 100,000 refugees fleeing Ukraine</h1>
-        <button type="button" class="btn btn-outline-light btn-sm button">Learn more</button>
+        <!--END jumbotron-->
+      </div>
     </div>
-    <!--END jumbotron-->
-  </div> 
 <!--End Black Continer-->
 
 
   <!--Center Picture-->
-  <div class="center-image">
-    <img src="\images\1st_image.jpg" class="image" alt="background image" width="93%"> 
-    <div class="inside-img-text">
-      Let your curiosity do the booking
-      <pre>
-      </pre>
-      <button type="button" class="inside-img-button">
-        <span class="inside-button-text">I’m flexible
-        </span>
+
+    <div class="center-image">
+      <img src="\images\1st_image.jpg" class="image" alt="background image" style="width: 85.5%;">
+      <div class="inside-img-text">
+        Let your curiosity do the booking
+        <pre>
+        </pre>
+        <button type="button" class="inside-img-button">
+          <span class="inside-button-text">I’m flexible
+          </span>
         </button>
-    </div>    
-  </div>
+      </div>
+    </div>
+  
   
   <!--END center picture-->
 
