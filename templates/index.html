@@ -1,171 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>   
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"> 
-    <!--stylesheet links-->
-    <!--nav bar-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-    <!--airbnb title text style-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+  <!--stylesheet links-->
+  <!--nav bar-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!--airbnb title text style-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+  <!--text of pagination: pg-element-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <!--Local CSS-->
+  <link rel="stylesheet" href="\static\style.css">
 
-
-    <!--text of pg-element-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-
-
-    <!--Local CSS-->
-    <link rel="stylesheet" href="\static\style.css">
-    <!--Title and favicon-->
-    <title> Airbnb: Holiday Rentals, Cabins,Beach Houses, Unique Homes & ... </title>
-    <link rel="icon" type="image/x-icon" href="\images\airbnb.svg">   
-</head>
-
-
-
+  <!--Title and favicon-->
+  <title> Airbnb: Holiday Rentals, Cabins,Beach Houses, Unique Homes & ... </title>
+  <link rel="icon" type="image/x-icon" href="\images\airbnb.svg">
+  </head>
 
 <body>
   <!--Black Container-->
-    <div class="container-fluid">
-      <!-- Header -->
-      <!-- logo -->
-      <div class="row">
-        <nav class="navbar navbar-expand-xxl navbar navbar-dark bg-dark">
-          <div class="col-md-4 logo-title">
-            <a class="navbar-brand" href="#">
-              <img src="\images\airbnb.svg" width="30" height="30" alt="Logo airbnb">
-              <!-- text -->
-              airbnb
-            </a>
-          </div>
-          <div class="col-md-4">
-            <ul class="nav justify-content-center">
-              <li class="nav-item">
-                <a class="nav-link underline1" href="#">Places to stay</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link underline2" href="#">Experiences</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link underline2" href="#">Online Experiences</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4" style="padding-left: 270px;">
-            <ul class="nav nav-pills">
-              <li class="nav-item">
-                <a class="nav-link host" href="#">Become a host</a>
-              </li>
-              <li class="nav-item">
-                <img src="\images\language_icon.svg" class="language-icon" alt="Language">
-              </li>
-              <li class="nav-item">
-                <button type="button" class="menu-profile">
-                  <img src="\images\menu_black.svg" class="menu" alt="Menu">
-                  <img src="\images\account_black.svg" class="profile" alt="Profile">
-                </button>
-    
-              </li>
-            </ul>
-    
-          </div>
-        </nav>
-        <!--END Header -->
-    
-        <!--Pagination-->
-        <div class="first-pagination">
-          <ul class="pagination justify-content-center">
-            <li class="page-item disabled">
-              <div class="hover-effect1">
-                <a class="page-link pg-element0"
-                  style="color: black;border-top-left-radius: 40px;border-bottom-left-radius: 40px;">Location
-                  <p style="color: rgb(131, 127, 122); font-size: 13px; font-weight: 500">Where are you going?</p>
-                </a>
-              </div>
+  <div class="container-fluid">
+    <!-- Header -->
+    <!-- logo -->
+    <div class="row">
+      <nav class="navbar navbar-expand-xxl navbar navbar-dark bg-dark">
+        <div class="col-md-4 logo-title">
+          <a class="navbar-brand" href="#">
+            <img src="\images\airbnb.svg" width="30" height="30" alt="Logo airbnb">
+            <!-- text -->
+            airbnb
+          </a>
+        </div>
+        <div class="col-md-4">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link underline1" href="#">Places to stay</a>
             </li>
-    
-            <li class="page-item disabled">
-              <a class="page-link pg-element1" href="#" style="color: black;">Ckeck in
-                <p style="color: rgb(131, 127, 122); font-size: 13px; font-weight: 500 ">Add dates</p>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link underline2" href="#">Experiences</a>
             </li>
-    
-            <li class="page-item disabled">
-              <a class="page-link pg-element1" href="#" style="color: black;">Ckeck out
-                <p style="color: rgb(131, 127, 122); font-size: 13px; font-weight: 500 ">Add dates</p>
-              </a>
-            </li>
-    
-            <li class="page-item disabled">
-              <a class="page-link pg-element2" href="#"
-                style="color: black; border-top-right-radius: 40px;border-bottom-right-radius: 40px;">Guests
-                <p style="color: rgb(131, 127, 122); font-size: 13px; font-weight: 500">Add Guests
-                  <button type="button" class="pagination-button">
-                    <img src="\images\search_white.svg" class="search-button" alt="Search">
-                  </button>
-                </p>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link underline2" href="#">Online Experiences</a>
             </li>
           </ul>
         </div>
-    
-        <!--END Pagination-->
-    
-    
-        <!--jumbotorn-->
-        <div class="jumbotron">
-          <h1 class="display-4">Help house 100,000 refugees fleeing Ukraine</h1>
-          <button type="button" class="btn btn-outline-light btn-sm button">Learn more</button>
+        <div class="col-md-4" style="padding-left: 270px;">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link host" href="#">Become a host</a>
+            </li>
+            <li class="nav-item">
+              <img src="\images\language_icon.svg" class="language-icon" alt="Language">
+            </li>
+            <li class="nav-item">
+              <button type="button" class="menu-profile">
+                <img src="\images\menu_black.svg" class="menu" alt="Menu">
+                <img src="\images\account_black.svg" class="profile" alt="Profile">
+              </button>
+            </li>
+          </ul>
         </div>
-        <!--END jumbotron-->
+      </nav>
+      <!--END Header -->
+      <!--Pagination-->
+      <div class="first-pagination">
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled">
+            <div class="hover-effect1">
+              <a class="page-link pg-element0"
+                style="color: black;border-top-left-radius: 40px;border-bottom-left-radius: 40px;">Location
+                <p style="color: rgb(131, 127, 122); font-size: 13px; font-weight: 500">Where are you going?</p>
+              </a>
+            </div>
+          </li>
+          <li class="page-item disabled">
+            <a class="page-link pg-element1" href="#" style="color: black;">Ckeck in
+              <p style="color: rgb(131, 127, 122); font-size: 13px; font-weight: 500 ">Add dates</p>
+            </a>
+          </li>
+          <li class="page-item disabled">
+            <a class="page-link pg-element1" href="#" style="color: black;">Ckeck out
+              <p style="color: rgb(131, 127, 122); font-size: 13px; font-weight: 500 ">Add dates</p>
+            </a>
+          </li>
+          <li class="page-item disabled">
+            <a class="page-link pg-element2" href="#"
+              style="color: black; border-top-right-radius: 40px;border-bottom-right-radius: 40px;">Guests
+              <p style="color: rgb(131, 127, 122); font-size: 13px; font-weight: 500">Add Guests
+                <button type="button" class="pagination-button">
+                  <img src="\images\search_white.svg" class="search-button" alt="Search">
+                </button>
+              </p>
+            </a>
+          </li>
+        </ul>
       </div>
+      <!--END Pagination-->
+      <!--jumbotorn-->
+      <div class="jumbotron">
+        <h1 class="display-4">Help house 100,000 refugees fleeing Ukraine</h1>
+        <button type="button" class="btn btn-outline-light btn-sm button">Learn more</button>
+      </div>
+      <!--END jumbotron-->
     </div>
-<!--End Black Continer-->
+  </div>
+  <!--End Black Continer-->
 
 
   <!--Center Picture-->
-
-    <div class="center-image">
-      <img src="\images\1st_image.jpg" class="image" alt="background image" style="width: 85.5%;">
-      <div class="inside-img-text">
-        Let your curiosity do the booking
-        <pre>
+<div class="center-image">
+    <img src="\images\1st_image.jpg" class="image" alt="background image" style="width: 85.5%;">
+    <div class="inside-img-text">
+      Let your curiosity do the booking
+      <pre>
         </pre>
-        <button type="button" class="inside-img-button">
-          <span class="inside-button-text">I’m flexible
-          </span>
-        </button>
-      </div>
+      <button type="button" class="inside-img-button">
+        <span class="inside-button-text">I’m flexible
+        </span>
+      </button>
     </div>
-  
-  
+  </div>
   <!--END center picture-->
 
 
-
-<!--White Container-->
+  <!--White Container-->
   <div class="white-continer">
     <div class="space">
-      <div class="extra-space">
+      <div class="row white">
         <span class="heading">Inspiration for your next trip
         </span>
       </div>
     </div>
     <div class="horizontal-images">
-      <div class="first-image">
-        <img src="\images\lonavla.jpg" alt="lonavala-image">
-      </div>
-
-    </div>
+      <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="column">
+                <div class="card">
+                  <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+                  <div class="container">
+                    <h2>Jane Doe</h2>
+                    <p class="title">CEO & Founder</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>example@example.com</p>
+                    <p><button class="button">Contact</button></p>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="column">
+                <div class="card">
+                  <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+                  <div class="container">
+                    <h2>Mike Ross</h2>
+                    <p class="title">Art Director</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>example@example.com</p>
+                    <p><button class="button">Contact</button></p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="column">
+                <div class="card">
+                  <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+                  <div class="container">
+                    <h2>John Doe</h2>
+                    <p class="title">Designer</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>example@example.com</p>
+                    <p><button class="button">Contact</button></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>-->
   </div>
   <!--END White container-->
-  
 </body>
 </html>
