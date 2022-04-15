@@ -355,18 +355,44 @@ body{
 }
 
 .horizontal-images{
-    padding-left: 80px;
-    padding-right: 80px;
-    margin-left: 80px;
+    padding-left: 83px;
+    padding-right: 137px;
+    margin-left: 54px;  
+}
+.first-image{
+    background-color:rgb(217, 59, 48);;
+    color: #ffffff;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    
+}
+.second-image{
+    background-color: #CC2D4A;
+    color: #ffffff;
+}
+.third-image{
+    background-color: #BC1A6E;
+    color: #ffffff;
+}
+.forth-image{
+    background-color: #D93B30;
+    color: #ffffff;
 }
 
-.first-image{
-    
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    object-fit: cover;
-    object-position: center center;
+.img-title{
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.img-subtitle{
+    padding-left: 15px;
+    margin-bottom: 70px;
+}
+.card-img{
+    width:100%; 
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 /* END white Continer */
 
